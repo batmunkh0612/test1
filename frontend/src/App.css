@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: "Alkatra", cursive;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Header {
+  width: 100vw;
+  height: 8vh;
+  background-color: rgb(235, 235, 235);
+}
+
+.headerTop {
+  height: 3vh;
+  display: flex;
+  background-color: rgb(235, 235, 235);
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 10vw;
+}
+
+.headerBottom {
+  height: 5vh;
+  border: 0.5px solid gray;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+
+.mainHeaderStyle {
+  font-family: 'Alkatra', cursive;
+}
+
+.sign {
+  display: flex;
+}
+
+.sign>div {
+  margin-left: 1vw;
+}
+
+.headerMain {
+  display: flex;
+}
+
+.headerMain>div {
+  margin-left: 2vw;
+}
+
+.headerImg {
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1433838552652-f9a46b332c40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8&w=1000&q=80");
+}
+
+.postTitle {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+}
+
+.navbarNames {
+  display: flex;
+  font-family: 'Roboto Slab', serif !important;
+  flex-direction: column;
+  font-weight: 100 !important;
+  font-size: 20px !important;
+  cursor: pointer;
+}
+
+
+.hover {
+  transition: transform 0.5s;
+  border: 1px solid black;
+}
+
+.hover:hover {
+  transform: scale(1.1);
+  border: 1px solid black
+}
+
+.helper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly
+}
+
+.image {
+  width: 12vw;
+  height: 14vh;
+}
+
+.image:hover {
+  scale: 1.1;
+}
+
+.navbarContainer {
+  margin-top: 2vh;
+
+}
+
+.navbarContainer {
+  margin-top: 2vh;
+
+}

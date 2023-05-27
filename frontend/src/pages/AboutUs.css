@@ -1,0 +1,74 @@
+.aboutContainer {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.miniContainer {
+    display: flex;
+    width: 50vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-direction: row;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    display: flex;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.names {
+    cursor: pointer;
+}
+
+.discord {
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.AboutSite {
+    display: flex;
+    height: 25vh;
+    width: 100vw;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.zorilgo {
+    display: flex;
+    flex-direction: column;
+}
+
+.strong {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zorilt {
+    display: flex;
+    flex-direction: column;
+}
+
+.hello {
+    display: flex;
+    justify-content: center;
+}

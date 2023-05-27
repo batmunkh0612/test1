@@ -3,9 +3,9 @@ import mongoose from "mongoose";
 import cors from "cors";
 import dotenv from "dotenv";
 import postRouter from "./router/post.js";
-import userRouter from "./router/user.js";
 import commentRouter from "./router/comment.js";
 import adRouter from "./router/ad.js";
+import routerUser from "./router/user.js";
 
 dotenv.config();
 
@@ -19,7 +19,7 @@ app.use(express.json());
 
 // Routes
 app.use("/post", postRouter);
-app.use("/user", userRouter);
+app.use("/user", routerUser);
 app.use("/comment", commentRouter);
 app.use("/ad", adRouter);
 

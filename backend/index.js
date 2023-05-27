@@ -34,6 +34,9 @@ const connectToDatabase = async () => {
   }
 };
 
+app.get('/', (req, res) => {
+  res.json("test");
+});
 // Start the server
 app.listen(port, async () => {
   await connectToDatabase();
